@@ -1,0 +1,19 @@
+======================================
+        @ align items @
+======================================
+____________________________________________________________________________
+
+        $>> align items vai alinhar os Items na vertical, seria o alinhamento transversal (vertical);
+
+        $>> Valores:
+                { align-items: streth; }
+                        - valor padrão, vai esticar os flex items;
+                { align-items: center; }
+                        - vai alinhar no eixo vertical os Flex Items no centro;
+                { align-items: flex-start; }
+                        - se alinha no começo do eixo  transversal;
+                { align-items: flex-end; }
+                        - se alinha no fim do eixo  transversal;
+                { align-items: baseline; }
+                        - vai alinhar no eixo transversal com base na linha;
+____________________________________________________________________________
