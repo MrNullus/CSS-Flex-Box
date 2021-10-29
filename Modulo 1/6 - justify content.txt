@@ -1,0 +1,19 @@
+======================================
+        @ justify content @
+======================================
+____________________________________________________________________________
+
+        @>> Só é possivel usar o justify content com o flex wrap, pois assim consegue movimentar os elementos na horizontal;
+        @>> Valores:
+                { justify-content: center; }
+                        - vai mover os Flex Items para o centro;
+                { justify-content: flex-start; }
+                        - vai mover os Flex Items para o inicio do Flex Containêr;
+                { justify-content: flex-end; }
+                        - vai mover os Flex Items para o fim do Flex Containêr;
+                { justify-content: space-between; }
+                        - vai colocar um espaço entre os Flex Items;
+                { justify-content: space-around; }
+                        - vai colocar um espaço entorno dos Flex Items;
+        [! Quando se usa o flex direction column a orientação do justify content é diferente por causa do eixo que vai para a vertical e no row fica na horizontal !]
+____________________________________________________________________________
