@@ -1,0 +1,35 @@
+=============================
+    #    Terminologia     #
+=============================
+______________________________________________
+    ======================
+        Flex Container
+    ======================
+    -------------------------------
+        #>> Flexbox pe um modelo de layout que funciona através de um conjusto de propriedades especificas;
+        #>> Sendo que ele necessita dos seguintes elementos. O primeiro é o Flex Container. Para se tornar flexivel o container recebe a propriedade "display" com vlor "flex" ou "inline-flex";
+    -------------------------------
+
+    ======================
+        Flex Items
+    ======================
+    -------------------------------
+        #>> Depois tem outro elemento, ou elementos sendo eles os Flex Items. Que são elementos items(filhos) diretos de Flex Container;
+    -------------------------------
+
+    ======================
+        Flex Lines
+    ======================
+    ---------------------------------------
+        #>> Elementos filhos do Flex Contaienr são dispostos  e alinhados em linhas flexiveis (Flex Lines);
+        #>> Um Flex Container pode ser só de uma linha ou multiplas linhas;
+    -------------------------------
+
+    =================================
+        Direções e Dimensionamento
+    =================================
+    ---------------------------------------
+        #>> Direções e termos Dimensionamento aplicados a um contêiner flexivel de linha unica;
+    ---------------------------------------
+
+______________________________________________
