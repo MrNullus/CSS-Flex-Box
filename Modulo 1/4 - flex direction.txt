@@ -1,0 +1,21 @@
+======================================
+        @ Flex Direction @
+======================================
+________________________________________
+
+    - Flex Direciton define a direção do eixo principal, sendo que há duas direções e para cada uma um ordenamento diferente;
+    - Quando o eixo se muda sendo ele o do Flex Items há uma outra propriedade que também muda;
+    
+    @ Propriedades de direção:
+        { flex-direction: row; }
+            - Ao se usar o 'flex-direction: row;' o eixo principal do flex items muda para linha e os items diminuem ou alongão-se ao maximo para caber na largura do container;
+                < flex-direction row é o valor padrão >
+        { flex-direction: column; }
+            - Quando se usa o 'flex-direction: column;' o eixo principal (o do flex items) é virado na vertical ficando empilhados tomando não mais a largura doflex container ao maximo mas sim a altura ao maximo;
+
+    @ Propriedades de direção com ordenamento inversos:
+        { flex-direction: row-reverse; }
+            - Vai fazer o mesmo que o row apenas muda a ordem dos Flex Items;
+        { flex-direction: column-reverse; }
+            - Vai fazer o mesmo que o column apenas muda a ordem dos Flex Items;
+________________________________________
