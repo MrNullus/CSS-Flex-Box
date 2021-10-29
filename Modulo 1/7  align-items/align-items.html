@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>align-items</title>
+		<meta charset="UTF-8">
+		<style type="text/css" media="screen">
+			* { box-sizing: border-box;}
+			body { padding: 30px; }
+			.container {
+				display: flex;
+				background-color: #85d0bc;				
+				border: 1px solid #028082;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: center;
+				align-items: baseline;
+				width: 30%;
+				height: 600px;
+				margin: 0 auto;
+				color: #028082;
+			}	
+			.item {
+				background-color: #cdf6eb;
+				border: 1px solid #028082;
+				width: 100px;
+				height: 70px;
+			}
+
+			.baseline{
+				font-size: 2em;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item baseline">1</div>
+			<div class="item">2</div>
+			<div class="item">3</div>
+			<div class="item">4</div>
+			<div class="item">5</div>
+			<div class="item">6</div>
+			<div class="item">7</div>
+			<div class="item">8</div>			
+			<div class="item">9</div>
+			<div class="item">10</div>
+		</div>
+	</body>
+</html>		
