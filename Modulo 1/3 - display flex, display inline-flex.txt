@@ -1,0 +1,13 @@
+________________________________________________
+
+    # display: flex; e display: inline-flex; #
+________________________________________________
+===================================================
+    $>> Usando o display flex ou inline flex torna-se o elemenento uma caixa flexivel, sendo a primeira propriedade a ser colocada para se usar o Flexbox;
+    $>> Assim que é sedato essa propriedade o elemento se torna um Flex Containêr e seus filhos diretos Flex Items;
+    $>> Os Flex Items tem uma propriedadede de se esticar (ou melhor alongar) até tomar todo o espaço disponivel dentro do Flex Containêr. Eles perdem o tamanho ou largura definido, por causa, dessa propriedade deve se atentar;
+    
+    @ Diferença entre display flex e inline-flex @
+        #>> O dsiplay: flex; deixa o Flex Containêr em 'bloco' e os Flex-items em uma Flex-Line agora o display: inline-flex; deixa o Flex Containêr em linha sendo posssivel colocar elementos com inline-flex um do lado do outro. Diferentemente do display flex;
+
+===================================================
