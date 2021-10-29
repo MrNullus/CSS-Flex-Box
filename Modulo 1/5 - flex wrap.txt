@@ -1,0 +1,16 @@
+======================================
+        @ Flex Wrap @
+======================================
+____________________________________________________________________________
+
+    - O flex-wrap vai servir para definir se a Flex Line ira 'quebrar'e criar outras fazendo com que os Flex Items não recorram a preencher a largura ou altura do flex-containêr;
+
+    { flex-wrap: wrap; }
+        - Vai definir que o wrap aconteça. Fazendo com que os Items tenham seus valores originais de altura ou largura e fazendo com que os Flex Items se quebrem e criem novas Flex Lines;
+    { flex-wrap: wrap; }
+        - Vai acontecer a mesma coisa com wrap, só que, vai reverter a ordem;
+    { flex-wrap: no-wrap; }
+        - O wrap não acontece;
+    [ ! Se os Items não caberem o conteudo era transbordar do Flex Containêr ]
+    [! Quando se usa wrap sendo que o eixo está na horizontal, os elementos se quebram na horizontal. Se o eixo estiver na vertical se quebra na vertical ]
+____________________________________________________________________________
