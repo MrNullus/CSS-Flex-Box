@@ -1,0 +1,18 @@
+======================================
+	#  Introdução ao CSS Flexbox  #
+======================================
+--------------------------------------
+	@ O que éFlexbox? @
+		- CSS Flexible Box Layout Model (Modelo de Layout de Vaixs Flexiveis CSS) é um modelo de layout que fornece uma maneira mais eficiente de: dispor, alinhar e distribuir espaços entre itens em um contêiner;
+	@ O que oferece de beneficios? @		
+		- O anunhamento das caixas pode ser usado para criar layouts em duas dimensões;
+		- A ordem de exibilção dos elementos é independente na ordem do código fonte;
+	@ Modelos de Layouts @	
+		- Layout em Tabelas;
+		- Layout em Bloco;
+		- Layour em Linhas;
+		- Layout Posicionado;
+	@ Vantagens do Flexbox @
+		- Com o layout flex é possui varias veantegens como posicionamento, alongamento, tamanho dos elementos, possui maior flexibilidade, redimencionamento, escolhimento e ordenamento;
+		
+--------------------------------------
