@@ -6,8 +6,8 @@ ______________________________________________
         Flex Container
     ======================
     -------------------------------
-        #>> Flexbox pe um modelo de layout que funciona através de um conjusto de propriedades especificas;
-        #>> Sendo que ele necessita dos seguintes elementos. O primeiro é o Flex Container. Para se tornar flexivel o container recebe a propriedade "display" com vlor "flex" ou "inline-flex";
+        #>> Flexbox é um modelo de layout que funciona através de um conjunto de propriedades especificas;
+        #>> Sendo que ele necessita dos seguintes elementos. O primeiro é o Flex Container. Para se tornar flexivel o container recebe a propriedade "display" com valor "flex" ou "inline-flex";
     -------------------------------
 
     ======================
@@ -29,7 +29,7 @@ ______________________________________________
         Direções e Dimensionamento
     =================================
     ---------------------------------------
-        #>> Direções e termos Dimensionamento aplicados a um contêiner flexivel de linha unica;
+        #>> Direções e termos Dimensionamento aplicados a um contêiner flexivel;
     ---------------------------------------
 
 ______________________________________________

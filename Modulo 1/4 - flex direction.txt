@@ -8,10 +8,10 @@ ________________________________________
     
     @ Propriedades de direção:
         { flex-direction: row; }
-            - Ao se usar o 'flex-direction: row;' o eixo principal do flex items muda para linha e os items diminuem ou alongão-se ao maximo para caber na largura do container;
+            - Ao se usar o 'flex-direction: row;' o eixo principal do flex items muda para a horizontal e os items diminuem ou alongão-se ao maximo para caber na largura do container;
                 < flex-direction row é o valor padrão >
         { flex-direction: column; }
-            - Quando se usa o 'flex-direction: column;' o eixo principal (o do flex items) é virado na vertical ficando empilhados tomando não mais a largura doflex container ao maximo mas sim a altura ao maximo;
+            - Quando se usa o 'flex-direction: column;' o eixo principal (o do flex items) é virado na vertical ficando empilhados tomando não mais a largura do flex container ao maximo mas sim a altura ao maximo;
 
     @ Propriedades de direção com ordenamento inversos:
         { flex-direction: row-reverse; }
