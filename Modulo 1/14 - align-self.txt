@@ -1,0 +1,19 @@
++================+
+    align-self
++================+
+--------------------------------------------------------------------------------
+    #>> Vai mudar o eixo do flex item, sendo que vai ser usado apenas para um
+item, funciona como align-items, só que para um elemento especifico;
+    # Tendo como valor padrão 'auto', seguindo o valor de align-items
+    #>> Valores:
+        { align-items: streth; }
+            - valor padrão, vai esticar os flex items;
+        { align-items: center; }
+            - vai alinhar no eixo vertical dos flex Items no centro;
+        { align-items: flex-start; }
+            - se alinha no começo do eixo transversal;
+        { align-items: flex-end; }
+            - se alinha no fim do eixo  transversal;
+        { align-items: baseline; }
+            - vai alinhar no eixo transversal com base da tipografia;
+--------------------------------------------------------------------------------
