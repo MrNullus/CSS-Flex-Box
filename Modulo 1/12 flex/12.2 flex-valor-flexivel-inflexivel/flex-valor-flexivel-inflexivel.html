@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>flex - flexível - inflexível</title>
+		<meta charset="UTF-8">
+		<style type="text/css" media="screen">
+			body {padding: 30px;}
+
+			.container {
+				display: flex;
+				background-color: #85d0bc;				
+				border: 1px solid #028082;
+				width: 500px;
+				height: 400px;
+				margin: 0 auto;
+				color: #028082;
+			}	
+			.item {
+				background-color: #cdf6eb;
+				height: 70px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex: auto;
+			}	
+			.item:nth-child(even) {
+				background-color: #a4ddce;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item item-1">1</div>
+			<div class="item item-2">2</div>
+			<div class="item item-3">3</div>			
+			<div class="item item-5">4</div>
+		</div>
+	</body>
+</html>		
