@@ -1,0 +1,16 @@
++-----------------+
+    flex-shrink
++-----------------+
+================================================================================
+    #> Faz o inverso do flex-grow determina o fator de encolhimento dos flex items;
+    #> Tem como valor default 1, ou seja, já recebe um fator de encolhimento que
+    faz com que os items fiquem encolhidos ate a largura do flex-container por exemplo;
+    # Para definir esse fator de crescimento é usado uma formula:
+        unidade de crescimento
+                =
+        espaço disponivel / somatoria de todos os fatores de crescimento
+    ----------------------------
+        espaço disponivel
+                =
+        largura do flex-container - soma das larguras dos flex-items
+================================================================================
