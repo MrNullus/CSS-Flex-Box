@@ -1,0 +1,25 @@
++-----------------------------+
+    @   align-content     @
++-----------------------------+
+=====================================================================
+    # Vai distribuir as lines no eixo transversal;
+    # Sendo que a diferença entre align-items é que o align-content
+    vai distribuir multiple lines ('varias' linhas) agora o align-items
+    distribuir em single line (linha unica);
+
+    @>> Valores:
+        { align-content: stretch; }
+            - valor padrão, irá esticar os flex-items;
+        { align-content: flex-start; }
+            - irá distribuir as lines ao topo do flex-container em relação
+            ao eixo segundario;
+        { align-content: flex-end; }
+            - vai distribuir as lines no final do flex-container em relação
+            ao eixo segundario;
+        { align-content: center; }
+            - distribuirá no centro;
+        { align-content: space-between; }
+            - vai fazer um espaço entre as linhas;
+        { align-content: space-around; }
+            - vai colocar um espaço ao redor de cada linha;
+=====================================================================
