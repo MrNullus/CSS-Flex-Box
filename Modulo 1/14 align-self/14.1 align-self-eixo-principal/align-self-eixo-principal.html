@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>align-self - eixo principal</title>
+		<meta charset="UTF-8">
+		<style type="text/css" media="screen">
+			body {padding: 30px;}
+
+			.container {
+				display: flex;
+				background-color: #85d0bc;
+				border: 1px solid #028082;
+				width: 700px;
+				height: 400px;
+				margin: 0 auto;
+				color: #028082;
+			}
+			.item {
+				background-color: #cdf6eb;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				flex: 1 1 auto;
+			}
+			.item:nth-child(even) {
+				background-color: #a4ddce;
+			}
+			
+			.stretch {
+				align-self: stretch;
+			}
+			.flex-start{
+				align-self: flex-start;
+			}
+			.flex-end{
+				align-self: flex-end;
+			}
+			.center{
+				align-self: center;
+			}
+			.baseline{
+				align-self: baseline;
+				font-size: 5em;
+			}
+			.baseline-2{
+				align-self: baseline;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item flex-end">1</div>
+			<div class="item center">7</div>
+			<div class="item flex-end">2</div>
+			<div class="item flex-start">3</div>
+			<div class="item flex-end">4</div>
+			<div class="item">5</div>
+			<div class="item">6</div>
+			<div class="item baseline">7</div>
+		</div>
+	</body>
+</html>
