@@ -1,0 +1,18 @@
+#======================#
+@       flex-grow      @
+#======================#
+--------------------------------------------------------------------------------
+    # Vai ser a propriedade que define o fator de crescimento dos items;
+    # O valor padrão é o valor 0 (ou seja não tem fator de crescimento);
+    # deve receber somente numeros;
+    # Para definir esse fator de crescimento é usado uma formula:
+        unidade de crescimento
+                =
+        espaço disponivel / somatoria de todos os fatores de crescimento
+    ----------------------------
+        espaço disponivel
+                =
+        largura do flex-container - soma das larguras dos flex-items
+        
+    - depois pega essa unidade de crescimento e soma com a largura do flex-item;
+--------------------------------------------------------------------------------
