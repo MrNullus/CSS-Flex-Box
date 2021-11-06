@@ -1,0 +1,13 @@
++-------------++-------------+
+    propriedade order
++-------------++-------------+
+================================================================================
+    #>> É a propriedade que vai definir a ordem dos elementos (flex items) vão
+ser mostrados, sendo que, a ordem colocada no HTML não será alterada em si, essa
+propriedade vai alterar apenas visualmente os elementos;
+    #>> O mesmo vai acontecer com o direction column ou row;
+    #>> Existem algumas regras para se ligar no order:
+        - Numeros negativos vem antes de 0 e numeros positivos;
+        - O numero 0 vai antes de numeros negativos e depois de numeros positivos;
+        - Os numeros positivos vai antes de 0 e numeros negativos;
+================================================================================
