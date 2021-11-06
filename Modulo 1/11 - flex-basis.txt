@@ -1,0 +1,25 @@
++=================+
+    flex-basis
++=================+
+___________________________________________________________________________________
+
+    @>> Serve para definir o valor (seria as dimenções do item) inicial do item,
+    sendo que:
+        - as dimenções são largura e altura;
+    ! quando a direção está na horizontal o dimenção alterada é a largura, agora
+    quando está na vertical o eixo a que se altera é a altura;
+    @>> No flex-basis se usa as unidades des medida para setar o valor do basis
+    @>> Seu valor default é o 'auto', sendo que com esse valor a dimenção
+    corresponde ao tamanho do flex container;
+    @>> Quando flex-basis estiver zero não vai aparecer nada (caso não tenha
+    flex-grow ou um width já definido);
+    @>> Dependendo do tamanho do conteudo for maior, o item não vai ter a dimensão
+    colocada no flex-basis e sim vai esticar até o tamanho do conteudo;
+    @>> Quando se tem um valor de flex-basis já definido, width e height não vai
+    funcionar, sendo que para que isso ocorra o valor deve ser > 0 (maior que zero)
+    @>> Pode-se limitar a ação do flex-baisis com propriedades min-width e max-
+    width assim com min-height e max-height. O grow, shrink e basis tomaram como
+    referencia um dessas propriedades;
+    @>> Quando usado o wrap junto com o basis o item se não couber na mesma line
+    que os outros ele irá quebrar ese ajustar para caber totalmente na outra line;
+___________________________________________________________________________________
