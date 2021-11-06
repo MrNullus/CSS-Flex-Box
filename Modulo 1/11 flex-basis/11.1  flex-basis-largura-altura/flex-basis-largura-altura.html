@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>flex-basis</title>
+		<meta charset="UTF-8">
+		<style type="text/css" media="screen">
+			body {
+				padding: 30px;
+			}
+			.container {
+				display: flex;
+				background-color: #85d0bc;
+				border: 1px solid #028082;
+				width: 550px;
+				height: 400px;
+				margin: 0 auto;
+				color: #028082;
+				overflow: hidden;
+				border-radius: 12%;
+			}
+			.item {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #cdf6eb;
+				box-shadow: 0 0 12rem #fff;
+				height: 150px;
+				border-radius: 5%;
+				margin-top: 20%;
+				margin-right: 4px;
+				flex-basis: 250px;
+				flex-shrink: 0;
+				animation: rotateItem 6s infinite;
+			}
+
+			@keyframes rotateItem {
+				0%{
+					transform: translateX(-150%);
+				}
+
+				50%{
+					transform: translateX(6%);
+				}
+
+				100%{
+					transform: translateX(-200%);
+				}
+			}
+
+			.item:nth-child(even) {
+				background-color: #a4ddce;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item item-1">1</div>
+			<div class="item item-2">2</div>
+			<div class="item item-3">3</div>
+			<div class="item item-4">4</div>
+		</div>
+	</body>
+</html>
