@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>display flex e display inline-flex</title>
+		<meta charset="UTF-8">
+		<style type="text/css" media="screen">
+			.wrraper{
+				padding: 1%;
+				margin-top: 1em;
+			}
+
+			.container-flex, .container-inline-flex{
+				background-color: #85d0bc;				
+				border: 1px solid #028082;
+				width: 30%;
+				padding: 1%;
+				margin: 0 auto;
+				color: #028082;
+			}	
+
+			.container-flex{
+				display: flex;
+			}
+
+			.container-inline-flex{
+				display: inline-flex;
+				background-color: #d0b285;				
+				border: 1px solid #822b02;
+			}
+
+			.item {
+				background-color: #cdf6eb;
+				border: 1px solid #028082;
+				width: 20%;
+			}		
+
+			.container-inline-flex .item{
+				background-color: #d0b285;				
+				border: 1px solid #822b02;	
+				color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-flex">
+			<div class="item">1</div>
+			<div class="item">2</div>
+			<div class="item">3</div>
+			<div class="item">4</div>
+			<div class="item">5</div>
+			<div class="item">6</div>
+			<div class="item">7</div>
+			<div class="item">8</div>
+		</div>
+
+		<div class="wrraper">
+			<div class="container-inline-flex">
+				<div class="item">1</div>
+				<div class="item">2</div>
+				<div class="item">3</div>
+				<div class="item">4</div>
+				<div class="item">5</div>
+				<div class="item">6</div>
+				<div class="item">7</div>
+				<div class="item">8</div>
+			</div>
+
+			<div class="container-inline-flex">
+				<div class="item">1</div>
+				<div class="item">2</div>
+				<div class="item">3</div>
+				<div class="item">4</div>
+				<div class="item">5</div>
+				<div class="item">6</div>
+				<div class="item">7</div>
+				<div class="item">8</div>
+			</div>
+		</div>
+
+	</body>
+</html>		
