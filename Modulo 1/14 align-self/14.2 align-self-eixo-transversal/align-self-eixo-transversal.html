@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>align-self - eixo transversal</title>
+		<meta charset="UTF-8">
+		<style type="text/css" media="screen">
+			body {padding: 30px;}
+
+			.container {
+				display: flex;
+				background-color: #85d0bc;				
+				border: 1px solid #028082;
+				width: 700px;
+				margin: 0 auto;
+				color: #028082;
+				flex-direction: column;
+				align-items: flex-end;
+			}	
+			.item {
+				background-color: #cdf6eb;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				flex: 1 1 auto;
+			}	
+			.item:nth-child(even) {
+				background-color: #a4ddce;
+			}
+			.stretch {
+				align-self: stretch;
+			}
+			.flex-start {
+				align-self: flex-start;
+			}
+			.flex-end {
+				align-self: flex-end;
+			}
+			.center {
+				align-self: center;
+			}
+			.baseline {
+				align-self: baseline;
+			} 
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item">1</div>
+			<div class="item stretch">2</div>
+			<div class="item flex-start">3</div>
+			<div class="item flex-end">4</div>		
+			<div class="item center">5</div>				
+			<div class="item baseline">6</div>
+		</div>
+	</body>
+</html>		
