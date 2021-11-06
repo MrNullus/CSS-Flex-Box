@@ -1,0 +1,18 @@
+@------------------------@
+    Propriedade flex: ;
+@------------------------@
+________________________________________________________________________________
+
+    @>> A propriedade flex irá servir como uma forma simplificada de declarar
+outras propriedades como o flex-grow, flex-shrink e flex-basis. Vai funcionar
+como as três em uma só;
+    @>> Valor default => flex: 0 1 auto;
+    @>> Sintaxe:
+        flex: <flex-grow> <flex-shrink> <flex-basis>;
+
+    @>> Quando se tem  um número na propriedade 'flex' então significa três
+coisas:
+        - O numero colocado, corresponde ao 'flex-grow';
+        - O 'flex-shrink' equivale é igual a 1;
+        - O 'flex-basis' equivale a 0;
+________________________________________________________________________________
