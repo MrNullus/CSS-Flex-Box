@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>order 2</title>
+		<meta charset="UTF-8">
+		<style type="text/css" media="screen">
+			body {padding: 30px;}
+
+			.container {
+				display: flex;
+				background-color: #85d0bc;
+				border: 1px solid #028082;
+				width: 700px;
+				height: 400px;
+				margin: 0 auto;
+				padding: 4px 0;
+				color: #028082;
+				flex-direction: row;
+			}
+			.item {
+				background-color: #cdf6eb;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				flex: 1 1 auto;
+				margin: 4px 8px;
+			}
+			.order_menosUm {
+				order: -1;
+			}
+			.order {
+				order: 0;
+			}
+			.order_1 {
+				order: 1;
+			}
+			.order_2 {
+				order: 2;
+			}
+			.order_3 {
+				order: 3;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item order_3">1</div>
+			<div class="item order_menosUm">2</div>
+			<div class="item order">3</div>
+			<div class="item order_1">4</div>
+			<div class="item order_2">5</div>
+		</div>
+	</body>
+</html>
