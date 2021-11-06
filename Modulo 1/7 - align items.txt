@@ -7,13 +7,13 @@ ____________________________________________________________________________
 
         $>> Valores:
                 { align-items: streth; }
-                        - valor padrão, vai esticar os flex items;
+                    - valor padrão, vai esticar os flex items;
                 { align-items: center; }
-                        - vai alinhar no eixo vertical os Flex Items no centro;
+                    - vai alinhar no eixo vertical os Flex Items no centro;
                 { align-items: flex-start; }
-                        - se alinha no começo do eixo  transversal;
+                    - se alinha no começo do eixo  transversal;
                 { align-items: flex-end; }
-                        - se alinha no fim do eixo  transversal;
+                    - se alinha no fim do eixo  transversal;
                 { align-items: baseline; }
-                        - vai alinhar no eixo transversal com base na linha;
+                    - vai alinhar no eixo transversal com base na linha;
 ____________________________________________________________________________
