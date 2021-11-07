@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box
+}
+
+.wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh
+}
+.wrapper > * {
+    padding: 2.5rem;
+}
+
+header, footer {
+    background-color: lightskyblue;
+}
+
+.nav {
+    background-color: royalblue;
+    order: 1;
+}
+
+article {
+    background-color: tomato;
+}
+
+.banner {
+    background-color: seagreen;
+    order: 1;
+}
+
+footer  {
+    order: 1;
+}
+
+@media screen and (min-width: 1024px){
+    .wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    header, footer{
+        flex: 1 0 100%;
+    }
+
+    .nav, .banner{
+        flex: 1 0 20%;
+        order: 0;
+    }
+
+    article{
+        flex: 1 0 60%;
+    }
+}
